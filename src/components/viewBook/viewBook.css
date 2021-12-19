@@ -1,0 +1,33 @@
+.view-book{
+    text-align: initial;
+}
+.view-page-titles .nav{
+    display: block;
+}
+.view-page-titles{
+    min-height: calc(100vh - 50px);
+    background: #dfdfe1;
+}
+.view-page-titles .nav-link{
+    color: #000000;
+    border-bottom: 1px solid #707071;
+    cursor: pointer;
+}
+.view-page-titles .nav-link.active{
+    background: #afb0b1;
+}
+.view-page-titles .nav-link:hover{
+    color: #000000;
+}
+.view-page-details{
+    padding: 1rem;
+}
+.edit-icon::before{
+    content: "\f044";
+}
+.edit-icon{
+    margin: 0.25rem 1rem;
+}
+.view-page-details .tab-content{
+    min-height: 400px;
+}

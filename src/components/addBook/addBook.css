@@ -1,0 +1,16 @@
+.add-book{
+    background: #ededee;
+}
+.save-page-btn{
+    cursor: pointer;
+    color: #ffffff;
+    background: #aa66cc;
+}
+.back-to-book-btn{
+    background: #4285f4;
+    cursor: pointer;
+    color: #ffffff;
+}
+.btn-container{
+    margin: 1rem 0 1rem auto;
+}
